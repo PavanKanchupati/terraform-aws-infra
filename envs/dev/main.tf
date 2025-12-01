@@ -95,11 +95,11 @@ module "nodegroup" {
 ############################################
 # 10. EBS StorageClass (gp3) – default
 ############################################
-module "ebs_storage" {
-  source = "../../modules/ebs-storage"
-
-  storage_class_name = "gp3-sc"
-  fs_type            = "ext4"
-  default            = true
-}
+#module "ebs_storage" {
+ # source = "../../modules/ebs-storage"
+#
+ # storage_class_name = "gp3-sc"
+  #fs_type            = "ext4"
+  #default            = true
+#}
 
